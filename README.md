@@ -1,6 +1,5 @@
 # Intro To React !
 
-![image](https://user-images.githubusercontent.com/5574267/32147681-74918d80-bceb-11e7-98d4-1cbc04b29eb4.gif)
 
 ## Recap
 
