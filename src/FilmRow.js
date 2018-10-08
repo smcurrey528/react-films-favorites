@@ -2,19 +2,17 @@ import React, {Component} from 'react';
 import FilmPoster from './FilmPoster.js';
 
 class FilmRow extends Component {
-  let releaseYear = new Date ({this.props.film.release_date})
-  releaseYear.getFullYear();
-  console.log(releaseYear.getFullYear();)
   render() {
+    let year= new Date(this.props.film.release_date).getFullYear();
     return (
 
 <div className="film-row">
-  <FilmPoster />
+  <FilmPoster movies= {this.props.film}/>
 
   <div className="film-summary">
     <h1>{this.props.film.title}</h1>
 
-    <p>{this.props.film.release_date}</p>
+    <p>{year}</p>
   </div>
 </div>
       )
