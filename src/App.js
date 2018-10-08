@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Filmlist from './film-list.js';
-import FilmDetails from './film-details.js';
+import Filmlist from './FilmListing.js';
+import FilmDetails from './FilmDetails.js';
 
 class App extends Component {
   render() {
