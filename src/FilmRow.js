@@ -7,7 +7,7 @@ class FilmRow extends Component {
     return (
 
 <div className="film-row">
-  <FilmPoster movies= {this.props.film}/>
+  <FilmPoster movies= {this.props.film.poster_path}/>
 
   <div className="film-summary">
     <h1>{this.props.film.title}</h1>
