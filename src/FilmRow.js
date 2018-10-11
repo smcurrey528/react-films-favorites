@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import FilmPoster from './FilmPoster.js';
+import Fave from './Fave.jsx';
 
 class FilmRow extends Component {
+
+  handleDetailsClick(film) {
+    console.log('fetching details for,')
+  }
   render() {
     let year= new Date(this.props.film.release_date).getFullYear();
     return (
@@ -14,6 +19,7 @@ class FilmRow extends Component {
 
     <p>{year}</p>
   </div>
+  <Fave />
 </div>
       )
   }

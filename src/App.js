@@ -3,7 +3,7 @@ import './App.css';
 import FilmListing from './FilmListing.js';
 import FilmDetails from './FilmDetails.js';
 import TMDB from './TMDB.js';
-import FilmPoster from './FilmPoster.js'
+
 
 class App extends Component {
 
